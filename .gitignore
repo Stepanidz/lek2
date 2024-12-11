@@ -1,0 +1,58 @@
+# Компилируемые двоичные файлы
+*.out
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Объектные файлы и промежуточные файлы компиляции
+*.o
+*.obj
+*.gch
+
+# Файлы отладки и дампы
+*.pdb
+*.idb
+*.mem
+*.stackdump
+
+# Логи
+*.log
+
+# Файлы временных сборок
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Каталоги сборки и IDE
+build/
+bin/
+Debug/
+Release/
+.idea/
+.vscode/
+
+# Конфигурационные файлы IDE
+*.user
+*.csproj.user
+*.sln.docstates
+
+# Сгенерированные файлы (например, Makefile от cmake)
+Makefile
+CMakeLists.txt.user
+CMakeCache.txt
+cmake-build-debug/
+
+# Кэш-файлы инструментов
+*.d
+*.tlog
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Другие временные файлы
+*.~*
